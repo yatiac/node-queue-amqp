@@ -1,0 +1,20 @@
+{
+  "name": "node-queue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publisher.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "consumer" : "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yatiac/node-queue-amqp.git"
+  },
+  "keywords": ["nodejs", "amqp", "rabbitmq", "queue"],
+  "author": "Rafael Echeverria (Yatiac) <rafael.echeverria@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  }
+}
